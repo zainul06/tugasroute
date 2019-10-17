@@ -11,9 +11,9 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 
 // Route::get('/siswa', function() {
@@ -39,3 +39,7 @@
 Route::get('/pegawai', 'PegawaiController@index');
 Route::get('/karyawan', 'KaryawanController@about');
 Route::get('/pelayan', 'PelayanController@index');
+Route::get('/Barang', 'BarangController@index');
+Route::get('/User', 'UserController@index');
+Route::get('/Kategori', 'KategoriController@index');
+Route::get('/Satuan', 'SatuanController@index');
